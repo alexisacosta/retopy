@@ -1,0 +1,150 @@
+/*Fuentes*/
+@import url("https://fonts.googleapis.com/css?family=Montserrat");
+@import url("https://fonts.googleapis.com/css?family=Doppio+One");
+@import url("https://fonts.googleapis.com/css?family=Poppins:700|Righteous|Sail|Source+Sans+Pro|Wire+One");
+/********/
+/*Fuentes*/
+/*Colores*/
+/*Colores Complementarios de $f3*/
+body { font-family: "Montserrat", sans-serif; font-size: 14px; overflow-x: hidden; background-color: #F7F7F7; }
+
+#header { line-height: 1.3; }
+#header .banner { cursor: pointer; color: #F2F2F2; background-color: #3FB117; font-family: "Doppio One", sans-serif; border-bottom-left-radius: 5px; border-bottom-right-radius: 5px; }
+#header .menuB { margin-bottom: 10px; }
+#header .menuB .form-group { margin-bottom: 0; }
+#header .menuB .row { align-items: center; }
+@media (max-width: 767px) { #header .menuB .brand_menu { text-align: center; border-bottom: 1px solid #AEAEAE; padding-bottom: 10px; } }
+@media (max-width: 575px) { #header .menuB .brand_menu { border-bottom: 0px; } }
+#header .menuB .brand_menu .brand { font-family: "Righteous", cursive; font-size: 36px; font-weight: bold; letter-spacing: 2px; color: #606060; display: block; }
+#header .menuB .brand_menu .slogan { font-family: "Source Sans Pro", sans-serif; color: #767676; font-size: 12px; display: block; }
+@media (max-width: 575px) { #header .menuB .contact_menu { position: absolute; top: 155px; z-index: 1; left: 75px; } }
+#header .menuB .contact_menu .tel_menu .form-group .form-control { border: 0px; background-color: transparent; border-bottom: 2px solid #B128A0; border-radius: 0px; }
+#header .menuB .contact_menu .mail_menu .form-group .form-control { border: 0px; background-color: transparent; border-bottom: 2px solid #B128A0; border-radius: 0px; }
+@media (max-width: 575px) { #header .menuB .contact_menu .mail_menu { display: none; } }
+@media (max-width: 991px) { #header .menuB .contact_menu .redes_menu { display: none; } }
+#header .menup { border-top: 1px solid #AEAEAE; text-transform: uppercase; font-family: "Doppio One", sans-serif; font-size: 16px; }
+@media (max-width: 767px) and (min-width: 576px) { #header .menup { text-align: center; } }
+#header .menup .navbar-nav .nav-link { color: #343a40; }
+#header .menup .navbar-nav .nav-link:hover { background-color: #F7F7F7; color: #0469F2; }
+
+.titulo { color: #B128A0; font-weight: bold; text-align: center; }
+
+.barra-app { width: 100%; background-color: #B128A0; position: absolute; top: 0; right: 0; display: none; }
+.barra-app .closeSidebar { position: relative; top: 20px; left: 97%; }
+.barra-app .closeSidebar .fa { cursor: pointer; }
+.barra-app .closeSidebar .fa:hover { color: #7FFE53; }
+@media (max-width: 750px) { .barra-app .closeSidebar { left: 90%; } }
+.barra-app .sideMenu { color: #B128A0; background-color: #FF6DEC; font-weight: bold; padding-bottom: 1.7rem !important; }
+.barra-app .sideLista .seccionMenu { text-transform: uppercase; font-size: 11px; margin: 15px; padding: 0; }
+.barra-app .sideLista .seccionMenu .cajaMenu { cursor: pointer; background: #FE53E8; border: 3px solid #3FB117; -moz-border-radius: 5px; -o-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; width: 300px; height: 140px; margin: 5px; padding: 5px 0; text-align: center; }
+.barra-app .sideLista .seccionMenu .cajaMenu img { width: 50%; color: red; }
+@media (max-width: 630px) { .barra-app .sideLista .seccionMenu .cajaMenu { height: 115px; } }
+.barra-app .sideLista .seccionMenu .cajaMenu:hover { background: #7FFE53; border: 3px solid #7FFE53; }
+.barra-app .sideLista .seccionSubmenu { text-transform: uppercase; font-size: 11px; margin: 15px; padding: 0; }
+.barra-app .sideLista .seccionSubmenu .cajaSubmenu { cursor: pointer; background: #FE53E8; border: 3px solid #3FB117; -moz-border-radius: 5px; -o-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; width: 300px; height: 140px; margin: 5px; padding: 5px 0; text-align: center; }
+.barra-app .sideLista .seccionSubmenu .cajaSubmenu img { width: 50%; color: red; }
+@media (max-width: 630px) { .barra-app .sideLista .seccionSubmenu .cajaSubmenu { height: 115px; } }
+.barra-app .sideLista .seccionSubmenu .cajaSubmenu:hover { background: #7FFE53; border: 3px solid #7FFE53; }
+
+.barra_dl p { margin: 0; }
+
+@media (max-width: 401px) { .index-presentacion .card .btn { font-size: .8rem; } }
+
+.index-entrenamiento .card-uno { background-color: #3FB117; text-align: center; font-weight: bold; color: #F2F2F2; }
+.index-entrenamiento .card-uno h2 { font-family: "Chela One", cursive; letter-spacing: .3rem; }
+
+@media (max-width: 575px) { #carousel1 .carousel-inner .mobile { display: none; } }
+
+/*REDES SOCIALES*/
+.fa-facebook-official, .fa-facebook-square { color: #3b5998; }
+
+.fa-instagram { color: #e4405f; }
+
+.fa-envelope, .fa-envelope-square { color: #343a40; }
+
+.fa-twitter, .fa-twitter-square { color: #1da1f2; }
+
+.fa-whatsapp { color: #189D0E; }
+
+.index-motivacion { background-color: #343A40; color: #fff; }
+.index-motivacion .modal { color: black; }
+.index-motivacion .row .titulo { font-weight: bold; color: #3FB117; }
+@media (max-width: 401px) { .index-motivacion .btn.btn-evaluacion { font-size: .8rem; } }
+
+.suscribirblog { padding: 0 3rem !important; }
+@media (max-width: 450px) { .suscribirblog { padding: 0 !important; } }
+.suscribirblog .titulo { font-weight: bold; color: #3FB117; }
+.suscribirblog .firma { font-weight: bold; color: #B128A0; }
+
+@media (max-width: 471px) { .index-contactanos .card .card-body .btn-lg { font-size: .8rem !important; } }
+
+.index-cambio { background-image: url("../image/varios/Seasonal-eBook_Header-1024x180.png"); background-repeat: no-repeat; background-size: cover; padding: 5rem 0; }
+.index-cambio h1 { color: #B128A0; font-family: "Roboto Mono", monospace; }
+
+#page-contactenos .card { width: 100%; background-image: url("../image/ruthyfredy/6ac29c05-8892-4f84-8313-693ed085253d.jpeg"); background-repeat: no-repeat; background-size: cover; background-attachment: fixed; font-family: "Roboto Mono", monospace; }
+#page-contactenos .card .card-body { padding: 150px 20px; }
+#page-contactenos .escribenos { background-color: #E9E9E9; }
+#page-contactenos .escribenos form .form-group label { color: #3FB117; }
+#page-contactenos .contacto { cursor: pointer; padding: 10px 0; border: 1px solid #E9E9E9; font-family: "Roboto Mono", monospace; -moz-border-radius: 5px; -o-border-radius: 5px; -webkit-border-radius: 5px; border-radius: 5px; margin: 3px 20px; }
+#page-contactenos .contacto:hover { background-color: #B8E8E5; }
+#page-contactenos .contacto a { font-size: 1.5em; }
+@media (max-width: 474px) { #page-contactenos .contacto { font-size: 12px; } }
+@media (max-width: 390px) { #page-contactenos .contacto { font-size: 10px; } }
+#page-contactenos .redes { padding: 15px 0; margin: 10px 20px; text-align: center; }
+#page-contactenos .redes .fa { color: #AEAEAE; margin: 0 15px; }
+#page-contactenos .redes .fa.fa-facebook-official:hover { color: #3b5998; }
+#page-contactenos .redes .fa.fa-instagram:hover { color: #e4405f; }
+#page-contactenos .redes .fa.fa-twitter:hover { color: #1da1f2; }
+#page-contactenos iframe { width: -webkit-fill-available; height: 250px; }
+
+.page-testimonios #jssor_1 { width: auto !important; }
+@media (max-width: 767px) { .page-testimonios .caja-ayuda .card-body a { font-size: .8rem; } }
+@media (max-width: 700px) { .page-testimonios .caja-ayuda .card-body a { font-size: .6rem; } }
+@media (max-width: 768px) { .page-testimonios .caja-privilegios .card-body { padding: 5px; text-align: center; } }
+
+.caja-testimonios .col-md-6 { border-left: 1px solid #E9E9E9; border-right: 1px solid #E9E9E9; }
+.caja-testimonios .caja-text { font-family: "Roboto Mono", monospace; text-align: justify; color: gray; font-size: 14px; }
+
+.page-team #jssor_1 { position: relative; margin: 0 auto; top: 0px; left: 0px; width: 980px; height: 380px; overflow: hidden; visibility: hidden; }
+@media (max-width: 471px) { .page-team #jssor_1 { font-size: .8rem !important; } }
+.page-team .jssorl-009-spin { position: absolute; top: 0px; left: 0px; width: 100%; height: 100%; text-align: center; background-color: rgba(0, 0, 0, 0.7); }
+.page-team .jssorl-009-spin img { margin-top: -19px; position: relative; top: 50%; width: 38px; height: 38px; }
+.page-team .jssor_slides { cursor: default; position: relative; top: 0px; left: 0px; width: 980px; height: 380px; overflow: hidden; }
+.page-team .jssorb051 { position: absolute; bottom: 12px; right: 12px; }
+.page-team .jssorb051 .i { width: 16px; height: 16px; }
+.page-team .jssorb051 .i .svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.page-team .arrowleft { width: 65px; height: 65px; top: 0px; left: 35px; }
+.page-team .arrowleft .svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.page-team .arrowleft .svg .a { fill: #fff; fill-opacity: 0.5; cursor: pointer; }
+.page-team .arrowleft .svg .a:hover { fill-opacity: 0.8; }
+.page-team .arrowright { width: 65px; height: 65px; top: 0px; right: 35px; }
+.page-team .arrowright .svg { position: absolute; top: 0; left: 0; width: 100%; height: 100%; }
+.page-team .arrowright .svg .a { fill: #fff; fill-opacity: 0.5; cursor: pointer; }
+.page-team .arrowright .svg .a:hover { fill-opacity: 0.8; }
+
+footer { font-family: "Doppio One", sans-serif; }
+footer .footer-social { background-color: #E9E9E9; }
+footer .footer-social .social:hover .fa-4x { font-size: 5em; }
+footer .footer-menu .nav .nav-item .nav-link { text-transform: uppercase; color: #343a40; }
+footer .footer-menu .nav .nav-item .nav-link:hover { background-color: #E9E9E9; color: #0469F2; }
+footer .footer-contacto { color: #343a40; font-weight: bold; letter-spacing: .3rem; font-family: "Nunito", sans-serif; }
+
+.social-bar { position: fixed; right: 0; top: 35%; font-size: 1.5rem; display: flex; flex-direction: column; align-items: flex-end; z-index: 100; }
+@media (max-width: 575px) { .social-bar { display: none; } }
+.social-bar .icon { color: white; text-decoration: none; padding: .7rem; display: flex; transition: all .5s; }
+.social-bar .icon.icon-facebook2 { background: #2E406E; }
+.social-bar .icon.icon-twitter { background: #339DC5; }
+.social-bar .icon.icon-instagram { background: #3F60A5; }
+.social-bar .icon.icon-whatsapp { background: #0DC143; }
+.social-bar .icon.icon-mail4 { background: #E05B4A; }
+.social-bar .icon:first-child { border-radius: 1rem 0 0 0; }
+.social-bar .icon:last-child { border-radius: 0 0 0 1rem; }
+.social-bar .icon:hover { padding-right: 3rem; border-radius: 1rem 0 0 1rem; box-shadow: 0 0 0.5rem rgba(0, 0, 0, 0.42); }
+
+/*Keyframes*/
+/*Menu Top en Scrolling*/
+@keyframes scrolling { 0% { opacity: 0; top: -10px; }
+  30% { opacity: .5; top: -5px; }
+  100% { opacity: 1; top: 0px; } }
+
+/*# sourceMappingURL=main.css.map */
